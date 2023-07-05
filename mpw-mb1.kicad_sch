@@ -7619,7 +7619,7 @@
   (symbol (lib_id "Device:C_Small") (at 58.42 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00db537f-1037-4fb6-9d9b-01d9f1f6a64d)
-    (property "Reference" "C2" (at 56.096 235.3795 0)
+    (property "Reference" "C1" (at 56.096 235.3795 0)
       (effects (font (size 1 1)) (justify right))
     )
     (property "Value" "100nF" (at 56.096 237.0731 0)
@@ -7645,7 +7645,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C2") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -7654,7 +7654,7 @@
   (symbol (lib_id "power:GND") (at 203.2 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01c04910-fdfd-41cb-be9e-1401c63b235a)
-    (property "Reference" "#PWR017" (at 203.2 45.72 0)
+    (property "Reference" "#PWR032" (at 203.2 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 43.18 0)
@@ -7670,7 +7670,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -7679,7 +7679,7 @@
   (symbol (lib_id "power:GND") (at 306.07 205.74 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01de9a2b-b31e-46cd-b9b1-4d870ab3eb01)
-    (property "Reference" "#PWR062" (at 306.07 212.09 0)
+    (property "Reference" "#PWR075" (at 306.07 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 306.07 209.55 0)
@@ -7695,7 +7695,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -7747,7 +7747,7 @@
   (symbol (lib_id "power:+5V") (at 309.88 231.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 074ec632-5ecb-4654-b7e1-0edae251c28a)
-    (property "Reference" "#PWR05" (at 309.88 234.95 0)
+    (property "Reference" "#PWR076" (at 309.88 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 309.88 227.33 0)
@@ -7763,7 +7763,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -7772,7 +7772,7 @@
   (symbol (lib_id "power:GND") (at 312.42 205.74 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08033679-2a86-461b-adb6-c7abe2305e84)
-    (property "Reference" "#PWR064" (at 312.42 212.09 0)
+    (property "Reference" "#PWR078" (at 312.42 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 312.42 209.55 0)
@@ -7788,7 +7788,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -7797,7 +7797,7 @@
   (symbol (lib_id "power:GND") (at 185.42 269.24 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08848457-afd0-41da-95cd-4b3cbf90dd5b)
-    (property "Reference" "#PWR036" (at 185.42 275.59 0)
+    (property "Reference" "#PWR029" (at 185.42 275.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 185.42 273.05 0)
@@ -7813,7 +7813,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -7822,7 +7822,7 @@
   (symbol (lib_id "Device:C_Small") (at 284.48 68.58 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09df3e7b-4396-4469-8200-bff55bb1e31e)
-    (property "Reference" "C31" (at 284.48 65.405 0)
+    (property "Reference" "C15" (at 284.48 65.405 0)
       (effects (font (size 1 1)) (justify right))
     )
     (property "Value" "1uF" (at 284.48 67.31 0)
@@ -7848,7 +7848,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C31") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -7857,7 +7857,7 @@
   (symbol (lib_id "Device:R_Small") (at 185.42 264.16 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a0ad6af-b0fd-4c4b-92c4-8c6427458d87)
-    (property "Reference" "R32" (at 186.9186 263.136 0)
+    (property "Reference" "R21" (at 186.9186 263.136 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 186.9186 265.184 0)
@@ -7883,7 +7883,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R32") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -7892,7 +7892,7 @@
   (symbol (lib_id "power:+3.3V") (at 76.2 200.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a5cff3f-21a9-4b4d-945f-1b8e88ddfd95)
-    (property "Reference" "#PWR087" (at 76.2 204.47 0)
+    (property "Reference" "#PWR014" (at 76.2 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 77.47 196.85 0)
@@ -7908,7 +7908,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -7917,7 +7917,7 @@
   (symbol (lib_id "power:+3.3V") (at 304.8 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d5c9dd1-5705-435b-b022-f90a12888508)
-    (property "Reference" "#PWR067" (at 304.8 34.29 0)
+    (property "Reference" "#PWR073" (at 304.8 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 306.07 26.67 0)
@@ -7933,7 +7933,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -7942,7 +7942,7 @@
   (symbol (lib_id "Device:C_Small") (at 297.18 68.58 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d682efe-5569-46b4-b246-d641a1f942fd)
-    (property "Reference" "C32" (at 299.5041 67.7268 0)
+    (property "Reference" "C23" (at 299.5041 67.7268 0)
       (effects (font (size 1 1)) (justify right))
     )
     (property "Value" "1uF" (at 299.5041 69.4204 0)
@@ -7968,7 +7968,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C32") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -8044,7 +8044,7 @@
   (symbol (lib_id "power:+3.3V") (at 43.18 220.98 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f3cdd63-b7ba-43e2-9d9c-264d72e27d05)
-    (property "Reference" "#PWR025" (at 43.18 224.79 0)
+    (property "Reference" "#PWR06" (at 43.18 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 43.18 217.17 0)
@@ -8060,7 +8060,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -8069,7 +8069,7 @@
   (symbol (lib_id "power:GND") (at 317.5 243.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 111522d3-175d-4d2d-8a0b-d6d4b6ddc519)
-    (property "Reference" "#PWR023" (at 317.5 250.19 0)
+    (property "Reference" "#PWR079" (at 317.5 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 317.5 247.65 0)
@@ -8085,7 +8085,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -8094,7 +8094,7 @@
   (symbol (lib_id "Device:C_Small") (at 203.2 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1259551e-3cd2-4753-a386-43573b108f3e)
-    (property "Reference" "C3" (at 205.74 35.5662 0)
+    (property "Reference" "C8" (at 205.74 35.5662 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 205.74 38.1062 0)
@@ -8120,7 +8120,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C3") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -8129,7 +8129,7 @@
   (symbol (lib_id "Device:R_Small") (at 233.68 121.92 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 142499d4-2b2c-4125-8ab6-64f9a8b4cfd2)
-    (property "Reference" "R13" (at 231.775 123.825 90)
+    (property "Reference" "R25" (at 231.775 123.825 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0R" (at 235.585 123.825 90)
@@ -8152,7 +8152,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R13") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -8161,7 +8161,7 @@
   (symbol (lib_id "power:GND") (at 203.2 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 143d83f1-ab46-47f4-bd32-75b6ed965278)
-    (property "Reference" "#PWR095" (at 203.2 82.55 0)
+    (property "Reference" "#PWR034" (at 203.2 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 80.01 0)
@@ -8177,7 +8177,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -8221,7 +8221,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 116.84 220.98 180) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 17310bd1-b091-465f-b593-bea3544f3dfe)
-    (property "Reference" "TP11" (at 119.38 226.06 0)
+    (property "Reference" "TP1" (at 119.38 226.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 115.443 223.258 0)
@@ -8237,7 +8237,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "TP11") (unit 1)
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -8246,7 +8246,7 @@
   (symbol (lib_id "power:+3.3V") (at 55.88 269.24 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17895809-29d4-4dd9-8c4a-7f4b706fc33a)
-    (property "Reference" "#PWR053" (at 52.07 269.24 0)
+    (property "Reference" "#PWR09" (at 52.07 269.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 59.69 269.24 0)
@@ -8262,7 +8262,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -8271,7 +8271,7 @@
   (symbol (lib_id "Device:R_Small") (at 241.3 121.92 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 195f22a7-b8f6-4f3a-b560-58a8f0ff8b66)
-    (property "Reference" "R14" (at 239.395 123.825 90)
+    (property "Reference" "R34" (at 239.395 123.825 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "510" (at 243.205 123.825 90)
@@ -8294,7 +8294,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R14") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -8303,7 +8303,7 @@
   (symbol (lib_id "Device:C_Small") (at 289.56 40.64 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19d8301f-255e-43a4-8799-efaffe94f36e)
-    (property "Reference" "C20" (at 287.02 39.37 90)
+    (property "Reference" "C16" (at 287.02 39.37 90)
       (effects (font (size 1 1)))
     )
     (property "Value" "100nF" (at 293.37 41.91 90)
@@ -8329,7 +8329,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C20") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -8373,7 +8373,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x22") (at 360.68 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c60ae63-570e-467b-97e1-308e921287d4)
-    (property "Reference" "J7" (at 359.41 107.95 0)
+    (property "Reference" "J10" (at 359.41 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x22" (at 354.33 166.37 0)
@@ -8416,7 +8416,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "J7") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -8425,7 +8425,7 @@
   (symbol (lib_id "power:GND") (at 292.1 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 201001f0-f1c3-4306-adb5-d894c19b3906)
-    (property "Reference" "#PWR075" (at 292.1 80.01 0)
+    (property "Reference" "#PWR067" (at 292.1 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 294.64 76.2 0)
@@ -8441,7 +8441,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -8450,7 +8450,7 @@
   (symbol (lib_id "Device:R_Small") (at 240.03 163.83 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 234bd979-7663-4c43-9529-dba90c6c26fd)
-    (property "Reference" "R19" (at 237.871 162.814 90)
+    (property "Reference" "R30" (at 237.871 162.814 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "68R" (at 245.11 162.814 90)
@@ -8473,7 +8473,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R19") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -8482,7 +8482,7 @@
   (symbol (lib_id "power:+3.3V") (at 226.06 116.84 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23a877c4-f109-4c9a-a35f-3b4939f8a130)
-    (property "Reference" "#PWR043" (at 226.06 120.65 0)
+    (property "Reference" "#PWR039" (at 226.06 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 226.06 113.03 0)
@@ -8498,7 +8498,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -8507,7 +8507,7 @@
   (symbol (lib_id "power:+3.3V") (at 279.4 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23c62e03-6bbe-427d-ae4d-85655a4777c0)
-    (property "Reference" "#PWR074" (at 279.4 67.31 0)
+    (property "Reference" "#PWR061" (at 279.4 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 280.67 59.69 0)
@@ -8523,7 +8523,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -8532,7 +8532,7 @@
   (symbol (lib_id "Device:C_Small") (at 294.64 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26eb174f-aaf5-4867-966e-cbaa4a5759c3)
-    (property "Reference" "C23" (at 292.1 46.99 90)
+    (property "Reference" "C20" (at 292.1 46.99 90)
       (effects (font (size 1 1)))
     )
     (property "Value" "100nF" (at 298.45 49.53 90)
@@ -8558,7 +8558,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C23") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -8602,7 +8602,7 @@
   (symbol (lib_id "Device:C_Small") (at 298.45 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27f2727a-a054-4f97-85e3-6591893afeef)
-    (property "Reference" "C27" (at 296.126 157.9095 0)
+    (property "Reference" "C24" (at 296.126 157.9095 0)
       (effects (font (size 1 1)) (justify right))
     )
     (property "Value" "100nF" (at 296.126 159.6031 0)
@@ -8628,7 +8628,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C27") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -8637,7 +8637,7 @@
   (symbol (lib_id "power:GND") (at 318.77 205.74 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 284a7bd1-33c5-4a8c-952c-f3f3e4cf2bbc)
-    (property "Reference" "#PWR065" (at 318.77 212.09 0)
+    (property "Reference" "#PWR080" (at 318.77 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 318.77 209.55 0)
@@ -8653,7 +8653,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -8662,7 +8662,7 @@
   (symbol (lib_id "Device:R_Small") (at 240.03 156.21 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a8eed22-87d0-443b-8ae9-6ba9f70e6dd0)
-    (property "Reference" "R16" (at 237.871 155.194 90)
+    (property "Reference" "R27" (at 237.871 155.194 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "68R" (at 245.11 155.194 90)
@@ -8685,7 +8685,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R16") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -8694,7 +8694,7 @@
   (symbol (lib_id "Device:C_Small") (at 229.87 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b7520c7-d1b4-49be-8515-2cbfbe8ff37c)
-    (property "Reference" "C6" (at 232.41 35.5662 0)
+    (property "Reference" "C10" (at 232.41 35.5662 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 232.41 38.1062 0)
@@ -8720,7 +8720,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C6") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -8754,7 +8754,7 @@
   (symbol (lib_id "power:GND") (at 217.17 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d9b36f8-501c-492f-b3e0-1a4389230d17)
-    (property "Reference" "#PWR019" (at 217.17 48.26 0)
+    (property "Reference" "#PWR035" (at 217.17 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 217.17 45.72 0)
@@ -8770,7 +8770,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -8779,7 +8779,7 @@
   (symbol (lib_id "power:GND") (at 391.16 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2de877b2-e145-4847-9711-27b2c409fea0)
-    (property "Reference" "#PWR03" (at 391.16 238.76 0)
+    (property "Reference" "#PWR093" (at 391.16 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 389.128 235.966 0)
@@ -8795,7 +8795,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -8804,7 +8804,7 @@
   (symbol (lib_id "power:+3.3V") (at 43.18 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e61cf77-6bbf-4176-8c06-46e56e9a5097)
-    (property "Reference" "#PWR084" (at 43.18 186.69 0)
+    (property "Reference" "#PWR05" (at 43.18 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 44.45 179.07 0)
@@ -8820,7 +8820,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -8829,7 +8829,7 @@
   (symbol (lib_id "power:GND") (at 234.95 210.82 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 304efb76-cbe9-41fd-a86c-8edb73540547)
-    (property "Reference" "#PWR041" (at 228.6 210.82 0)
+    (property "Reference" "#PWR045" (at 228.6 210.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.7751 210.82 90)
@@ -8845,7 +8845,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -8880,7 +8880,7 @@
   (symbol (lib_id "Device:C_Small") (at 279.4 68.58 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32614bac-c5b1-4abf-a4d6-2bd0f723ff7f)
-    (property "Reference" "C25" (at 277.0759 67.7268 0)
+    (property "Reference" "C14" (at 277.0759 67.7268 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "10uF" (at 277.0759 69.4204 0)
@@ -8906,7 +8906,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C25") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -8915,7 +8915,7 @@
   (symbol (lib_id "power:GND") (at 53.34 273.05 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3366463f-8c7c-4e73-8270-537a3e810dfc)
-    (property "Reference" "#PWR052" (at 53.34 279.4 0)
+    (property "Reference" "#PWR08" (at 53.34 279.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 53.34 276.86 0)
@@ -8931,7 +8931,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -8964,7 +8964,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 158.75 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33c6a313-e0d3-48e2-90b3-db5452a02719)
-    (property "Reference" "#FLG03" (at 158.75 34.925 0)
+    (property "Reference" "#FLG02" (at 158.75 34.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 158.75 32.885 0)
@@ -8980,7 +8980,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -8989,7 +8989,7 @@
   (symbol (lib_id "TinyTapeout:CARAVEL_TT03_BREAKOUT") (at 318.77 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 342c76f3-b2b8-40b2-a0b0-d83e480188cc)
-    (property "Reference" "J1" (at 312.42 30.48 0)
+    (property "Reference" "J7" (at 312.42 30.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TT03_BREAKOUT" (at 320.04 78.74 0)
@@ -9084,7 +9084,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "J1") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -9093,7 +9093,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 132.08 260.35 180) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 34a31a58-75da-4c72-91fd-a45ef5eefcac)
-    (property "Reference" "TP13" (at 134.62 265.43 0)
+    (property "Reference" "TP3" (at 134.62 265.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 130.683 262.628 0)
@@ -9109,7 +9109,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "TP13") (unit 1)
+          (reference "TP3") (unit 1)
         )
       )
     )
@@ -9118,7 +9118,7 @@
   (symbol (lib_id "power:+1V8") (at 335.28 231.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35220735-ccb6-4c83-8389-cffd830260b9)
-    (property "Reference" "#PWR09" (at 335.28 234.95 0)
+    (property "Reference" "#PWR085" (at 335.28 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 335.28 227.33 0)
@@ -9134,7 +9134,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -9143,7 +9143,7 @@
   (symbol (lib_id "Device:C_Small") (at 144.78 204.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35dd0548-1b71-4fee-98c3-b4564c99bb6d)
-    (property "Reference" "C9" (at 144.78 199.39 90)
+    (property "Reference" "C6" (at 144.78 199.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 144.78 201.93 90)
@@ -9169,7 +9169,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C9") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -9178,7 +9178,7 @@
   (symbol (lib_id "power:GND") (at 322.58 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 396b8479-a188-4d1f-b534-cd6d0e2d23c8)
-    (property "Reference" "#PWR078" (at 322.58 140.97 0)
+    (property "Reference" "#PWR081" (at 322.58 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 322.58 138.565 0)
@@ -9194,7 +9194,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -9203,7 +9203,7 @@
   (symbol (lib_id "power:GND") (at 106.68 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3abd9f85-1dbf-4af6-9dcd-a23aa954f49f)
-    (property "Reference" "#PWR08" (at 106.68 93.98 0)
+    (property "Reference" "#PWR016" (at 106.68 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 90.17 0)
@@ -9219,7 +9219,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -9228,7 +9228,7 @@
   (symbol (lib_id "power:+1V8") (at 302.26 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3bb66eaf-88c8-473c-ab05-ecf8997ab7d7)
-    (property "Reference" "#PWR068" (at 302.26 46.99 0)
+    (property "Reference" "#PWR069" (at 302.26 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 306.07 41.91 0)
@@ -9244,7 +9244,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -9253,7 +9253,7 @@
   (symbol (lib_id "Device:R_Small") (at 173.99 204.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ea19423-2626-4828-8b98-39bdbb32523a)
-    (property "Reference" "R10" (at 172.085 206.375 90)
+    (property "Reference" "R19" (at 172.085 206.375 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 175.895 206.375 90)
@@ -9279,7 +9279,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R10") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -9331,7 +9331,7 @@
   (symbol (lib_id "power:GND") (at 234.95 248.92 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f8338fc-ff0f-4c72-a5e2-6e90a39533b7)
-    (property "Reference" "#PWR033" (at 228.6 248.92 0)
+    (property "Reference" "#PWR048" (at 228.6 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.7751 248.92 90)
@@ -9347,7 +9347,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -9356,7 +9356,7 @@
   (symbol (lib_id "power:GND") (at 138.43 227.33 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4005dc20-f4dd-45bf-a025-c56790efa4a9)
-    (property "Reference" "#PWR029" (at 138.43 233.68 0)
+    (property "Reference" "#PWR023" (at 138.43 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.43 231.14 0)
@@ -9372,7 +9372,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -9381,7 +9381,7 @@
   (symbol (lib_id "power:GND") (at 146.05 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 414a4260-7f54-4601-aae9-c54a403f3d49)
-    (property "Reference" "#PWR06" (at 146.05 67.31 0)
+    (property "Reference" "#PWR025" (at 146.05 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 64.77 0)
@@ -9397,7 +9397,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -9449,7 +9449,7 @@
   (symbol (lib_id "Device:R_Small") (at 39.37 152.4 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48b592cf-d05a-4df4-b4f1-998b5f0ba8ba)
-    (property "Reference" "R26" (at 37.846 152.908 90)
+    (property "Reference" "R5" (at 37.846 152.908 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "10k" (at 40.894 154.686 90)
@@ -9475,7 +9475,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R26") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -9484,7 +9484,7 @@
   (symbol (lib_id "power:GND") (at 116.84 266.7 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48e72f46-ee41-48fb-8c3e-77ce328fbace)
-    (property "Reference" "#PWR021" (at 116.84 273.05 0)
+    (property "Reference" "#PWR019" (at 116.84 273.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.84 270.51 0)
@@ -9500,7 +9500,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -9509,7 +9509,7 @@
   (symbol (lib_id "Device:R_Small") (at 226.06 121.92 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49da9eaf-aa27-48c8-b9d8-94a68d9fd322)
-    (property "Reference" "R12" (at 224.155 123.825 90)
+    (property "Reference" "R23" (at 224.155 123.825 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "510" (at 227.965 123.825 90)
@@ -9532,7 +9532,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R12") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -9541,7 +9541,7 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 317.5 241.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a331555-0988-4ab9-bed1-2fd4898005c9)
-    (property "Reference" "TP5" (at 324.104 239.903 0)
+    (property "Reference" "TP11" (at 324.104 239.903 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Keystone 5019" (at 324.104 240.927 0)
@@ -9557,7 +9557,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "TP5") (unit 1)
+          (reference "TP11") (unit 1)
         )
       )
     )
@@ -9566,7 +9566,7 @@
   (symbol (lib_id "TinyTapeout:CARAVEL_TT03_BREAKOUT") (at 147.32 127 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c9d5f26-ed78-4f01-a96d-6cb9799c635a)
-    (property "Reference" "J1" (at 132.08 102.87 0)
+    (property "Reference" "J7" (at 132.08 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TT03_BREAKOUT" (at 154.94 156.21 0)
@@ -9661,7 +9661,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "J1") (unit 3)
+          (reference "J7") (unit 3)
         )
       )
     )
@@ -9694,7 +9694,7 @@
   (symbol (lib_id "Device:R_Small") (at 53.34 231.14 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e520709-1edd-44f0-b169-15d4f6527e04)
-    (property "Reference" "R49" (at 53.34 226.8234 90)
+    (property "Reference" "R10" (at 53.34 226.8234 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 53.34 228.8714 90)
@@ -9720,7 +9720,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R49") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -9729,7 +9729,7 @@
   (symbol (lib_id "power:GND") (at 284.48 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e883047-3311-401c-a8bb-b6f1724b0449)
-    (property "Reference" "#PWR070" (at 284.48 48.26 0)
+    (property "Reference" "#PWR064" (at 284.48 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 287.02 44.45 0)
@@ -9745,7 +9745,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -9788,7 +9788,7 @@
   (symbol (lib_id "power:+5V") (at 163.83 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5336c383-cdca-4d4b-9e35-de277fddc8ff)
-    (property "Reference" "#PWR011" (at 163.83 43.18 0)
+    (property "Reference" "#PWR028" (at 163.83 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 163.83 35.56 0)
@@ -9804,7 +9804,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -9813,7 +9813,7 @@
   (symbol (lib_id "power:GND") (at 148.59 204.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55155972-fc6d-40c2-a73e-ca1e9236657d)
-    (property "Reference" "#PWR034" (at 148.59 210.82 0)
+    (property "Reference" "#PWR026" (at 148.59 210.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.59 208.28 0)
@@ -9829,7 +9829,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -9838,7 +9838,7 @@
   (symbol (lib_id "Device:R_Small") (at 41.91 149.86 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5934e0cd-eb56-4594-b737-02733f691102)
-    (property "Reference" "R25" (at 40.386 150.368 90)
+    (property "Reference" "R6" (at 40.386 150.368 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "10k" (at 43.434 152.146 90)
@@ -9864,7 +9864,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R25") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -9916,7 +9916,7 @@
   (symbol (lib_id "Device:R_Small") (at 177.8 259.08 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c3484de-fe48-4cca-8517-fd7775efe78e)
-    (property "Reference" "R34" (at 179.705 260.985 90)
+    (property "Reference" "R20" (at 179.705 260.985 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.2K" (at 179.705 257.175 90)
@@ -9939,7 +9939,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R34") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -9948,7 +9948,7 @@
   (symbol (lib_id "Device:R_Small") (at 29.21 162.56 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5dc29a4a-04ad-49e7-87cd-d6a1b586e5e3)
-    (property "Reference" "R30" (at 27.686 163.068 90)
+    (property "Reference" "R1" (at 27.686 163.068 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "10k" (at 30.734 164.846 90)
@@ -9974,7 +9974,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R30") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -10026,7 +10026,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 165.1 226.06 180) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 5ed41d67-72a9-44de-b029-fc4902eecf5b)
-    (property "Reference" "TP7" (at 167.64 231.14 0)
+    (property "Reference" "TP4" (at 167.64 231.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 163.703 228.338 0)
@@ -10042,7 +10042,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "TP7") (unit 1)
+          (reference "TP4") (unit 1)
         )
       )
     )
@@ -10051,7 +10051,7 @@
   (symbol (lib_id "Switch:SW_DIP_x08") (at 55.88 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f434328-4882-431a-856b-e7a0f2794eb0)
-    (property "Reference" "SW2" (at 53.34 143.51 0)
+    (property "Reference" "SW4" (at 53.34 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "418121270808" (at 60.96 170.18 0)
@@ -10085,7 +10085,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "SW2") (unit 1)
+          (reference "SW4") (unit 1)
         )
       )
     )
@@ -10094,7 +10094,7 @@
   (symbol (lib_id "Display_Character:KCSC02-106") (at 255.27 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6018c53b-5226-477d-a852-a42239650e4d)
-    (property "Reference" "U7" (at 255.27 145.01 0)
+    (property "Reference" "U5" (at 255.27 145.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "157112V12700" (at 255.27 147.058 0)
@@ -10122,7 +10122,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "U7") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -10131,7 +10131,7 @@
   (symbol (lib_id "Device:R_Small") (at 31.75 160.02 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60c669c3-285f-40f2-9754-9efe22b22067)
-    (property "Reference" "R29" (at 30.226 160.528 90)
+    (property "Reference" "R2" (at 30.226 160.528 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "10k" (at 33.274 162.306 90)
@@ -10157,7 +10157,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R29") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -10197,7 +10197,7 @@
   (symbol (lib_id "Device:R_Small") (at 228.6 205.74 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 626b5f80-756e-453c-ba7d-51458dbb1dc8)
-    (property "Reference" "R31" (at 228.6 201.4234 90)
+    (property "Reference" "R24" (at 228.6 201.4234 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "510" (at 228.6 203.4714 90)
@@ -10220,7 +10220,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R31") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -10229,7 +10229,7 @@
   (symbol (lib_id "Device:C_Small") (at 71.12 205.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 63fd18b1-b2c1-463a-81b2-8e5d138139eb)
-    (property "Reference" "C29" (at 68.796 204.8995 0)
+    (property "Reference" "C2" (at 68.796 204.8995 0)
       (effects (font (size 1 1)) (justify right))
     )
     (property "Value" "100nF" (at 68.796 206.5931 0)
@@ -10255,7 +10255,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C29") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -10307,7 +10307,7 @@
   (symbol (lib_id "power:GND") (at 58.42 241.3 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 664566fb-67d1-4b03-bf5e-99394e18d2d9)
-    (property "Reference" "#PWR027" (at 58.42 247.65 0)
+    (property "Reference" "#PWR010" (at 58.42 247.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 58.42 245.11 0)
@@ -10323,7 +10323,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -10332,7 +10332,7 @@
   (symbol (lib_id "power:GND") (at 241.3 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 669eb771-4b76-4dc8-99f1-921e8ac2cf5f)
-    (property "Reference" "#PWR099" (at 241.3 82.55 0)
+    (property "Reference" "#PWR052" (at 241.3 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.3 80.01 0)
@@ -10348,7 +10348,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -10357,7 +10357,7 @@
   (symbol (lib_id "Device:C_Small") (at 303.53 158.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67c6d893-fbc4-47b2-a9ac-2370192dc527)
-    (property "Reference" "C28" (at 305.8541 157.8968 0)
+    (property "Reference" "C26" (at 305.8541 157.8968 0)
       (effects (font (size 1 1)) (justify right))
     )
     (property "Value" "1uF" (at 305.8541 159.5904 0)
@@ -10383,7 +10383,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C28") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -10392,7 +10392,7 @@
   (symbol (lib_id "power:+3.3V") (at 43.18 48.26 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68191aae-0f32-4cf8-b01a-4749135d7e9c)
-    (property "Reference" "#PWR014" (at 43.18 52.07 0)
+    (property "Reference" "#PWR04" (at 43.18 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 43.18 44.45 0)
@@ -10408,7 +10408,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -10417,7 +10417,7 @@
   (symbol (lib_id "Device:R_Small") (at 240.03 161.29 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6aa09cef-eef8-4138-9759-8ba0336836b6)
-    (property "Reference" "R18" (at 237.871 160.274 90)
+    (property "Reference" "R29" (at 237.871 160.274 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "68R" (at 245.11 160.274 90)
@@ -10440,7 +10440,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R18") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -10449,7 +10449,7 @@
   (symbol (lib_id "power:+3.3V") (at 312.42 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6abed55a-002a-44a6-93f3-6e6b2f8c6ffe)
-    (property "Reference" "#PWR080" (at 312.42 133.35 0)
+    (property "Reference" "#PWR077" (at 312.42 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 313.69 125.73 0)
@@ -10465,7 +10465,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -10499,7 +10499,7 @@
   (symbol (lib_id "Device:R_Small") (at 240.03 153.67 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c1defc5-f667-4ca4-af84-65ae53092d6e)
-    (property "Reference" "R15" (at 237.871 152.654 90)
+    (property "Reference" "R26" (at 237.871 152.654 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "68R" (at 245.11 152.654 90)
@@ -10522,7 +10522,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R15") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -10531,7 +10531,7 @@
   (symbol (lib_id "power:+3.3V") (at 115.57 200.66 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c3f033f-19a5-4117-abc6-36f72023bcd5)
-    (property "Reference" "#PWR018" (at 115.57 204.47 0)
+    (property "Reference" "#PWR017" (at 115.57 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 115.57 196.85 0)
@@ -10547,7 +10547,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -10556,7 +10556,7 @@
   (symbol (lib_id "power:GND") (at 336.55 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6d614d11-9949-4de9-93b4-860e5ab33199)
-    (property "Reference" "#PWR013" (at 336.55 118.11 0)
+    (property "Reference" "#PWR086" (at 336.55 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 336.55 115.57 0)
@@ -10572,7 +10572,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -10581,7 +10581,7 @@
   (symbol (lib_id "power:GND") (at 273.05 223.52 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6eea1c9f-69e8-40dc-9caa-d1df064fc0eb)
-    (property "Reference" "#PWR045" (at 279.4 223.52 0)
+    (property "Reference" "#PWR057" (at 279.4 223.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 276.225 223.52 90)
@@ -10597,7 +10597,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -10606,7 +10606,7 @@
   (symbol (lib_id "TinyTapeout:PMOD_HOST_2x6") (at 53.34 187.96 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f1e87eb-ae95-4d7b-a762-417605dff717)
-    (property "Reference" "J10" (at 53.34 180.697 0)
+    (property "Reference" "J3" (at 53.34 180.697 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "613012243121" (at 53.34 182.745 0)
@@ -10633,7 +10633,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "J10") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -10668,7 +10668,7 @@
   (symbol (lib_id "Device:R_Small") (at 123.19 204.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 73442646-eaf9-4c57-846f-8eb0f138039a)
-    (property "Reference" "R4" (at 121.285 206.375 90)
+    (property "Reference" "R13" (at 121.285 206.375 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 125.095 206.375 90)
@@ -10694,7 +10694,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R4") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -10746,7 +10746,7 @@
   (symbol (lib_id "Switch:SW_DIP_x09") (at 50.8 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 763bd37e-0fc0-44cd-acf2-ee2cb8a2b585)
-    (property "Reference" "SW3" (at 50.8 100.56 0)
+    (property "Reference" "SW2" (at 50.8 100.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "219-9MST" (at 50.8 102.608 0)
@@ -10779,7 +10779,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "SW3") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
     )
@@ -10788,7 +10788,7 @@
   (symbol (lib_id "Device:R_Small") (at 36.83 154.94 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7966198b-55a0-4832-9e21-69352fa567e7)
-    (property "Reference" "R27" (at 35.306 155.448 90)
+    (property "Reference" "R4" (at 35.306 155.448 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "10k" (at 38.354 157.226 90)
@@ -10814,7 +10814,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R27") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -10849,7 +10849,7 @@
   (symbol (lib_id "power:GND") (at 234.95 236.22 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c2b5457-aaf2-4c9c-8001-8a989d40d375)
-    (property "Reference" "#PWR039" (at 228.6 236.22 0)
+    (property "Reference" "#PWR047" (at 228.6 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.7751 236.22 90)
@@ -10865,7 +10865,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -10874,7 +10874,7 @@
   (symbol (lib_id "power:+5V") (at 382.27 161.29 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c6514dc-bb7e-4868-8221-98b2c8d80d95)
-    (property "Reference" "#PWR061" (at 378.46 161.29 0)
+    (property "Reference" "#PWR091" (at 378.46 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 386.08 161.29 0)
@@ -10890,7 +10890,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -10899,7 +10899,7 @@
   (symbol (lib_id "power:GND") (at 379.73 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c797c00-5b63-4e03-9125-94b7d9ee0708)
-    (property "Reference" "#PWR058" (at 379.73 173.99 0)
+    (property "Reference" "#PWR090" (at 379.73 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 379.73 171.45 0)
@@ -10915,7 +10915,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -10924,7 +10924,7 @@
   (symbol (lib_id "Device:R_Small") (at 240.03 171.45 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d1d7152-6d30-40e9-9cac-4557f319cb3d)
-    (property "Reference" "R22" (at 237.871 170.434 90)
+    (property "Reference" "R33" (at 237.871 170.434 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "68R" (at 245.11 170.434 90)
@@ -10947,7 +10947,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R22") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -10956,7 +10956,7 @@
   (symbol (lib_id "power:GND") (at 265.43 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d7f852a-6b2a-4630-9df3-03ae653d6387)
-    (property "Reference" "#PWR089" (at 265.43 180.34 0)
+    (property "Reference" "#PWR055" (at 265.43 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 267.97 176.53 0)
@@ -10972,7 +10972,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -10981,7 +10981,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 179.07 210.82 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 7e5a44fd-fb79-486a-89e5-5e5c2c9e71de)
-    (property "Reference" "TP10" (at 176.53 205.74 0)
+    (property "Reference" "TP7" (at 176.53 205.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 180.467 208.542 0)
@@ -10997,7 +10997,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "TP10") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
     )
@@ -11006,7 +11006,7 @@
   (symbol (lib_id "power:+3.3V") (at 138.43 201.93 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8116fb63-bbe0-4ffe-b4ac-695029afe52f)
-    (property "Reference" "#PWR028" (at 138.43 205.74 0)
+    (property "Reference" "#PWR022" (at 138.43 205.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 138.43 198.12 0)
@@ -11022,7 +11022,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -11031,7 +11031,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 55.88 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 8128361f-612e-400a-94ac-6cba3584bbd0)
-    (property "Reference" "J3" (at 57.912 93.98 90)
+    (property "Reference" "J4" (at 57.912 93.98 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02" (at 53.3401 96.52 0)
@@ -11054,7 +11054,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "J3") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -11088,7 +11088,7 @@
   (symbol (lib_id "power:GND") (at 303.53 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 823d6d4b-06c6-48ae-8d33-954fb5f6e7a6)
-    (property "Reference" "#PWR071" (at 303.53 85.09 0)
+    (property "Reference" "#PWR070" (at 303.53 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 306.07 81.28 0)
@@ -11104,7 +11104,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -11156,7 +11156,7 @@
   (symbol (lib_id "Device:R_Small") (at 46.99 143.51 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 851fb5e9-723c-4278-9c5e-eb408b38a8af)
-    (property "Reference" "R23" (at 45.466 144.018 90)
+    (property "Reference" "R9" (at 45.466 144.018 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "10k" (at 48.514 145.034 90)
@@ -11182,7 +11182,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R23") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -11191,7 +11191,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 119.38 213.36 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 85efb51c-2d13-4086-8f19-61706b516703)
-    (property "Reference" "TP12" (at 116.84 208.28 0)
+    (property "Reference" "TP2" (at 116.84 208.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 120.777 211.082 0)
@@ -11207,7 +11207,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "TP12") (unit 1)
+          (reference "TP2") (unit 1)
         )
       )
     )
@@ -11216,7 +11216,7 @@
   (symbol (lib_id "power:+3.3V") (at 303.53 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86cfca76-df87-470b-a40a-0d4a45b7e647)
-    (property "Reference" "#PWR081" (at 303.53 157.48 0)
+    (property "Reference" "#PWR071" (at 303.53 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 304.8 149.86 0)
@@ -11232,7 +11232,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -11241,7 +11241,7 @@
   (symbol (lib_id "Device:R_Small") (at 43.18 226.06 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 879de34d-3f0f-4421-9e04-6e7094cb0fd8)
-    (property "Reference" "R6" (at 41.6815 225.036 0)
+    (property "Reference" "R7" (at 41.6815 225.036 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 41.6815 227.084 0)
@@ -11267,7 +11267,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R6") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -11276,7 +11276,7 @@
   (symbol (lib_id "power:+3.3V") (at 292.1 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 886d4d92-9964-434b-a492-62ece44216bc)
-    (property "Reference" "#PWR079" (at 292.1 133.35 0)
+    (property "Reference" "#PWR068" (at 292.1 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 293.37 125.73 0)
@@ -11292,7 +11292,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -11301,7 +11301,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 254 274.32 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 88c25062-3789-482c-8480-1fcae07b765c)
-    (property "Reference" "J4" (at 258.572 274.32 90)
+    (property "Reference" "J8" (at 258.572 274.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x03" (at 258.572 275.344 90)
@@ -11319,7 +11319,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "J4") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -11328,7 +11328,7 @@
   (symbol (lib_id "Device:R_Small") (at 161.29 204.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88d33c29-8a13-4178-a05a-0bde43c2e8ac)
-    (property "Reference" "R8" (at 159.385 206.375 90)
+    (property "Reference" "R17" (at 159.385 206.375 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 163.195 206.375 90)
@@ -11354,7 +11354,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R8") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -11363,7 +11363,7 @@
   (symbol (lib_id "power:+3.3V") (at 241.3 116.84 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a72dcdd-2507-4fb4-b9b8-cd7e1277d2b0)
-    (property "Reference" "#PWR051" (at 241.3 120.65 0)
+    (property "Reference" "#PWR053" (at 241.3 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 241.3 113.03 0)
@@ -11379,7 +11379,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -11388,7 +11388,7 @@
   (symbol (lib_id "power:GND") (at 273.05 248.92 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b80ecaf-04ac-4577-a377-662432b25f78)
-    (property "Reference" "#PWR047" (at 279.4 248.92 0)
+    (property "Reference" "#PWR059" (at 279.4 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 276.225 248.92 90)
@@ -11404,7 +11404,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -11456,7 +11456,7 @@
   (symbol (lib_id "power:GND") (at 331.47 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d42ecf3-684c-4825-91ad-c7dd663ce160)
-    (property "Reference" "#PWR072" (at 331.47 85.09 0)
+    (property "Reference" "#PWR084" (at 331.47 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 331.47 82.685 0)
@@ -11472,7 +11472,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -11481,7 +11481,7 @@
   (symbol (lib_id "power:GND") (at 73.66 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e766d7a-4e05-426f-831a-9ce8f7a4c612)
-    (property "Reference" "#PWR086" (at 73.66 194.31 0)
+    (property "Reference" "#PWR013" (at 73.66 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.66 191.905 0)
@@ -11497,7 +11497,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -11506,7 +11506,7 @@
   (symbol (lib_id "power:GND") (at 281.94 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9037254d-44ab-4f4a-9130-bd6bb9121620)
-    (property "Reference" "#PWR077" (at 281.94 140.97 0)
+    (property "Reference" "#PWR063" (at 281.94 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 281.94 138.565 0)
@@ -11522,7 +11522,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -11574,7 +11574,7 @@
   (symbol (lib_id "Regulator_Linear:AZ1117-1.8") (at 218.44 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 937076d3-84e8-4c2f-9493-0e857140ffc9)
-    (property "Reference" "U6" (at 218.44 65.635 0)
+    (property "Reference" "U3" (at 218.44 65.635 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AZ1117-1.8" (at 218.44 67.683 0)
@@ -11592,7 +11592,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "U6") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -11636,7 +11636,7 @@
   (symbol (lib_id "power:+3.3V") (at 38.1 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94200b23-c60c-40d7-b97a-857f42a9c9fa)
-    (property "Reference" "#PWR093" (at 38.1 107.95 0)
+    (property "Reference" "#PWR03" (at 38.1 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 39.37 100.33 0)
@@ -11652,7 +11652,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -11661,7 +11661,7 @@
   (symbol (lib_id "power:+1V8") (at 292.1 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96542826-f383-4d22-91f8-fc69aef8427c)
-    (property "Reference" "#PWR073" (at 292.1 67.31 0)
+    (property "Reference" "#PWR066" (at 292.1 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 292.1 59.555 0)
@@ -11677,7 +11677,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -11686,7 +11686,7 @@
   (symbol (lib_id "power:GND") (at 279.4 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 96b66e1f-0ce2-4944-a0bc-c7fa4bb10fc0)
-    (property "Reference" "#PWR076" (at 279.4 80.01 0)
+    (property "Reference" "#PWR062" (at 279.4 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 281.94 76.2 0)
@@ -11702,7 +11702,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -11711,7 +11711,7 @@
   (symbol (lib_id "power:+3.3V") (at 63.5 83.82 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9846a377-b78b-4d55-9f89-2d0cb19c91e4)
-    (property "Reference" "#PWR02" (at 63.5 87.63 0)
+    (property "Reference" "#PWR011" (at 63.5 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 63.5 80.01 0)
@@ -11727,7 +11727,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -11736,7 +11736,7 @@
   (symbol (lib_id "Device:R_Small") (at 34.29 157.48 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9927e835-c622-4d6a-a5b5-fe958c233861)
-    (property "Reference" "R28" (at 32.766 157.988 90)
+    (property "Reference" "R3" (at 32.766 157.988 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "10k" (at 35.814 159.766 90)
@@ -11762,7 +11762,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R28") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -11797,7 +11797,7 @@
   (symbol (lib_id "Device:R_Small") (at 154.94 204.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e7747f6-69ae-4102-a054-898b8384358d)
-    (property "Reference" "R7" (at 153.035 206.375 90)
+    (property "Reference" "R16" (at 153.035 206.375 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 156.845 206.375 90)
@@ -11823,7 +11823,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R7") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -11832,7 +11832,7 @@
   (symbol (lib_id "Memory_Flash:W25Q32JVSS") (at 138.43 217.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fa496e0-b67c-40e4-a636-c8c124bae53d)
-    (property "Reference" "U4" (at 128.27 208.28 0)
+    (property "Reference" "U1" (at 128.27 208.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "W25Q32JVSS" (at 139.7 226.06 0)
@@ -11861,7 +11861,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "U4") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -11870,7 +11870,7 @@
   (symbol (lib_id "power:GND") (at 240.03 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a1d9c8b1-6bd0-4f70-b56d-a3335e0f8404)
-    (property "Reference" "#PWR031" (at 240.03 45.72 0)
+    (property "Reference" "#PWR050" (at 240.03 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.03 43.18 0)
@@ -11886,7 +11886,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -11895,7 +11895,7 @@
   (symbol (lib_id "power:GND") (at 33.02 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a28b3ee9-faf9-4223-b86d-f8af819e5972)
-    (property "Reference" "#PWR083" (at 33.02 194.31 0)
+    (property "Reference" "#PWR02" (at 33.02 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 33.02 191.905 0)
@@ -11911,7 +11911,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -11955,7 +11955,7 @@
   (symbol (lib_id "power:GND") (at 273.05 236.22 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2e85152-9a99-4867-baf7-66dad86fe0ef)
-    (property "Reference" "#PWR046" (at 279.4 236.22 0)
+    (property "Reference" "#PWR058" (at 279.4 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 276.225 236.22 90)
@@ -11971,7 +11971,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -12006,7 +12006,7 @@
   (symbol (lib_id "Device:C_Small") (at 231.14 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a48dfbe9-77ba-4a1e-aa8a-fbf3e81b6e79)
-    (property "Reference" "C34" (at 233.68 72.3962 0)
+    (property "Reference" "C11" (at 233.68 72.3962 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 233.68 74.9362 0)
@@ -12032,7 +12032,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C34") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -12041,7 +12041,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 43.18 238.76 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4d77b4a-6fa4-483e-9885-a65e877a223a)
-    (property "Reference" "SW5" (at 38.735 238.76 0)
+    (property "Reference" "SW1" (at 38.735 238.76 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "B3U-1000P" (at 44.45 238.76 0)
@@ -12064,7 +12064,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "SW5") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -12073,7 +12073,7 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 335.28 233.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4e13175-a82c-4347-97ee-d61018381b61)
-    (property "Reference" "TP3" (at 336.042 235.077 0)
+    (property "Reference" "TP13" (at 336.042 235.077 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Keystone 5019" (at 328.676 234.053 0)
@@ -12089,7 +12089,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "TP3") (unit 1)
+          (reference "TP13") (unit 1)
         )
       )
     )
@@ -12098,7 +12098,7 @@
   (symbol (lib_id "power:+3.3V") (at 240.03 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5966020-44f3-44a1-bb9b-d9411ba8ad97)
-    (property "Reference" "#PWR030" (at 240.03 38.1 0)
+    (property "Reference" "#PWR049" (at 240.03 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 240.03 30.48 0)
@@ -12114,7 +12114,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -12123,7 +12123,7 @@
   (symbol (lib_id "Device:C_Small") (at 203.2 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a850f773-2868-43fb-84b1-40f7d19c84e2)
-    (property "Reference" "C33" (at 205.74 72.3962 0)
+    (property "Reference" "C9" (at 205.74 72.3962 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 205.74 74.9362 0)
@@ -12149,7 +12149,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C33") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -12158,7 +12158,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 177.8 215.9 180) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid a8d8d5ee-a554-4f27-8b90-621da829668e)
-    (property "Reference" "TP9" (at 180.34 220.98 0)
+    (property "Reference" "TP6" (at 180.34 220.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 176.403 218.178 0)
@@ -12174,7 +12174,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "TP9") (unit 1)
+          (reference "TP6") (unit 1)
         )
       )
     )
@@ -12183,7 +12183,7 @@
   (symbol (lib_id "power:+3.3V") (at 203.2 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a983f3f9-2130-4959-813a-a251bf895fa0)
-    (property "Reference" "#PWR012" (at 203.2 72.39 0)
+    (property "Reference" "#PWR033" (at 203.2 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 203.2 64.77 0)
@@ -12199,7 +12199,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -12208,7 +12208,7 @@
   (symbol (lib_id "MCU_RaspberryPi_and_Boards:Pico") (at 254 229.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac0a3ee9-bf09-4a98-9318-d246fa687578)
-    (property "Reference" "U1" (at 254 199.747 0)
+    (property "Reference" "U4" (at 254 199.747 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Pico" (at 254 201.795 0)
@@ -12266,7 +12266,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "U1") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -12275,7 +12275,7 @@
   (symbol (lib_id "power:+3.3V") (at 190.5 246.38 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ac7577fa-7aea-46ab-8938-192230effb26)
-    (property "Reference" "#PWR015" (at 190.5 250.19 0)
+    (property "Reference" "#PWR030" (at 190.5 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 190.5 242.57 0)
@@ -12291,7 +12291,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -12300,7 +12300,7 @@
   (symbol (lib_id "Device:C_Small") (at 297.18 35.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ac9d3f7e-f73c-4f9a-8f7f-87d2e57d3f8e)
-    (property "Reference" "C19" (at 294.64 34.29 90)
+    (property "Reference" "C21" (at 294.64 34.29 90)
       (effects (font (size 1 1)))
     )
     (property "Value" "100nF" (at 300.99 36.83 90)
@@ -12326,7 +12326,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C19") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -12335,7 +12335,7 @@
   (symbol (lib_id "Device:C_Small") (at 292.1 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae740493-8fb4-4a71-8eb6-59ed16cc0f10)
-    (property "Reference" "C21" (at 289.56 36.83 90)
+    (property "Reference" "C17" (at 289.56 36.83 90)
       (effects (font (size 1 1)))
     )
     (property "Value" "100nF" (at 295.91 39.37 90)
@@ -12361,7 +12361,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C21") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -12370,7 +12370,7 @@
   (symbol (lib_id "power:GND") (at 303.53 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af4c2278-84dd-4b8c-bd1f-4cbb2fe8ef95)
-    (property "Reference" "#PWR082" (at 303.53 170.18 0)
+    (property "Reference" "#PWR072" (at 303.53 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 306.07 166.37 0)
@@ -12386,7 +12386,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -12395,7 +12395,7 @@
   (symbol (lib_id "power:VBUS") (at 140.97 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0618aec-464a-4ca6-9c63-4dd517b0fd15)
-    (property "Reference" "#PWR04" (at 140.97 41.91 0)
+    (property "Reference" "#PWR024" (at 140.97 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 140.97 34.29 0)
@@ -12411,7 +12411,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -12420,7 +12420,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 45.72 264.16 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b18d2f31-b10c-434b-a77f-4cf7a0fa6c8f)
-    (property "Reference" "J6" (at 43.18 264.16 0)
+    (property "Reference" "J1" (at 43.18 264.16 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x06" (at 45.72 274.32 0)
@@ -12447,7 +12447,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "J6") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -12456,7 +12456,7 @@
   (symbol (lib_id "power:GND") (at 218.44 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1ab5a00-23f8-4c49-9e16-8d6ba1b68c79)
-    (property "Reference" "#PWR096" (at 218.44 85.09 0)
+    (property "Reference" "#PWR036" (at 218.44 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 218.44 82.55 0)
@@ -12472,7 +12472,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -12481,7 +12481,7 @@
   (symbol (lib_id "power:+3.3V") (at 116.84 246.38 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2bfaaea-c644-4ade-9d88-f2be9ee65b92)
-    (property "Reference" "#PWR020" (at 116.84 250.19 0)
+    (property "Reference" "#PWR018" (at 116.84 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 116.84 242.57 0)
@@ -12497,7 +12497,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -12506,7 +12506,7 @@
   (symbol (lib_id "power:GND") (at 254 265.43 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b395c5cf-c345-4b2b-8f63-d978b0fd2779)
-    (property "Reference" "#PWR048" (at 260.35 265.43 0)
+    (property "Reference" "#PWR054" (at 260.35 265.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 255.27 261.62 0)
@@ -12522,7 +12522,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -12583,7 +12583,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 53.34 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7037f07-8a3c-40ce-a1de-279c4bc838f2)
-    (property "Reference" "SW1" (at 55.88 81.28 0)
+    (property "Reference" "SW3" (at 55.88 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "B3U-1000P" (at 53.34 85.09 0)
@@ -12606,7 +12606,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "SW1") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
     )
@@ -12615,7 +12615,7 @@
   (symbol (lib_id "power:GND") (at 234.95 223.52 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7b5caf4-963a-41ac-8663-8610714aef35)
-    (property "Reference" "#PWR040" (at 228.6 223.52 0)
+    (property "Reference" "#PWR046" (at 228.6 223.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.7751 223.52 90)
@@ -12631,7 +12631,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -12640,7 +12640,7 @@
   (symbol (lib_id "power:+3.3V") (at 154.94 200.66 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7ff7fb2-becd-4553-8b81-e66d300c98bc)
-    (property "Reference" "#PWR035" (at 154.94 204.47 0)
+    (property "Reference" "#PWR027" (at 154.94 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 154.94 196.85 0)
@@ -12656,7 +12656,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -12665,7 +12665,7 @@
   (symbol (lib_id "power:GND") (at 365.76 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b8d9c320-5e97-4fe8-9715-79c99ea6950a)
-    (property "Reference" "#PWR092" (at 365.76 238.76 0)
+    (property "Reference" "#PWR089" (at 365.76 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 363.728 235.966 0)
@@ -12681,7 +12681,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -12690,7 +12690,7 @@
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 123.19 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc5b593f-d7a3-4a11-82ce-c0c1300252d2)
-    (property "Reference" "J2" (at 114.3 35.56 0)
+    (property "Reference" "J6" (at 114.3 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_Receptacle_USB2.0" (at 137.16 73.66 0)
@@ -12731,7 +12731,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "J2") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -12740,7 +12740,7 @@
   (symbol (lib_id "Device:R_Small") (at 240.03 158.75 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc5e2840-2743-4cae-a830-b89cdb164e06)
-    (property "Reference" "R17" (at 237.871 157.734 90)
+    (property "Reference" "R28" (at 237.871 157.734 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "68R" (at 245.11 157.734 90)
@@ -12763,7 +12763,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R17") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -12772,7 +12772,7 @@
   (symbol (lib_id "power:GND") (at 43.18 246.38 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc90fb6c-8b51-489e-ab0f-42e6dc0cb29f)
-    (property "Reference" "#PWR022" (at 43.18 252.73 0)
+    (property "Reference" "#PWR07" (at 43.18 252.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.18 250.19 0)
@@ -12788,7 +12788,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -12797,7 +12797,7 @@
   (symbol (lib_id "power:+3.3V") (at 341.63 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcbc2275-6ed7-4ae1-9b6e-e9c7144c19f6)
-    (property "Reference" "#PWR054" (at 345.44 161.29 0)
+    (property "Reference" "#PWR087" (at 345.44 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 337.82 161.29 0)
@@ -12813,7 +12813,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -12822,7 +12822,7 @@
   (symbol (lib_id "Device:R_Small") (at 167.64 204.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf0d66be-d465-4abb-bb8d-edc08a7a9ff3)
-    (property "Reference" "R9" (at 165.735 206.375 90)
+    (property "Reference" "R18" (at 165.735 206.375 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 169.545 206.375 90)
@@ -12848,7 +12848,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R9") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -12890,7 +12890,7 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 309.88 233.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4de616b-ca6e-4e50-aa87-e7ee00db4cb7)
-    (property "Reference" "TP1" (at 310.642 235.077 0)
+    (property "Reference" "TP10" (at 310.642 235.077 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Keystone 5019" (at 303.276 234.053 0)
@@ -12906,7 +12906,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "TP1") (unit 1)
+          (reference "TP10") (unit 1)
         )
       )
     )
@@ -12915,7 +12915,7 @@
   (symbol (lib_id "Device:C_Small") (at 292.1 68.58 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c659cf7b-bd21-45d2-8bb3-672831c9088a)
-    (property "Reference" "C26" (at 291.465 65.405 0)
+    (property "Reference" "C19" (at 291.465 65.405 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "10uF" (at 292.1 67.31 0)
@@ -12941,7 +12941,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C26") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -13036,7 +13036,7 @@
   (symbol (lib_id "Device:R_Small") (at 146.05 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c80628f0-e675-4b6f-abee-f66a93c4010a)
-    (property "Reference" "R1" (at 147.32 48.26 0)
+    (property "Reference" "R14" (at 147.32 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 147.32 50.8 0)
@@ -13062,7 +13062,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R1") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -13071,7 +13071,7 @@
   (symbol (lib_id "Device:C_Small") (at 240.03 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cadbce12-9331-45de-9ae7-13ab66ed3cb7)
-    (property "Reference" "C8" (at 242.57 35.5662 0)
+    (property "Reference" "C12" (at 242.57 35.5662 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 242.57 38.1062 0)
@@ -13097,7 +13097,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C8") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -13106,7 +13106,7 @@
   (symbol (lib_id "Device:R_Small") (at 240.03 166.37 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb7cd0ec-7cc1-468f-a616-dd711ec39bd8)
-    (property "Reference" "R20" (at 237.871 165.354 90)
+    (property "Reference" "R31" (at 237.871 165.354 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "68R" (at 245.11 165.354 90)
@@ -13129,7 +13129,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R20") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -13138,7 +13138,7 @@
   (symbol (lib_id "power:+1V8") (at 241.3 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb98518c-7a1d-4db5-b532-bb735eeb5e17)
-    (property "Reference" "#PWR032" (at 241.3 72.39 0)
+    (property "Reference" "#PWR051" (at 241.3 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 241.3 64.77 0)
@@ -13154,7 +13154,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -13163,7 +13163,7 @@
   (symbol (lib_id "power:+5V") (at 203.2 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc936590-3c15-4b59-828e-24277f09ada7)
-    (property "Reference" "#PWR016" (at 203.2 38.1 0)
+    (property "Reference" "#PWR031" (at 203.2 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 203.2 30.48 0)
@@ -13179,7 +13179,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -13188,7 +13188,7 @@
   (symbol (lib_id "Regulator_Linear:AZ1117-3.3") (at 217.17 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd30dec5-3872-43f2-9d79-b21a97aa7cec)
-    (property "Reference" "U3" (at 213.36 31.115 0)
+    (property "Reference" "U2" (at 213.36 31.115 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AZ1117-3.3" (at 222.25 40.64 0)
@@ -13212,7 +13212,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "U3") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -13221,7 +13221,7 @@
   (symbol (lib_id "power:+3.3V") (at 387.35 158.75 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cde5022a-13db-4260-ab08-4d2887cc44fe)
-    (property "Reference" "#PWR063" (at 383.54 158.75 0)
+    (property "Reference" "#PWR092" (at 383.54 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 391.16 158.75 0)
@@ -13237,7 +13237,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -13246,7 +13246,7 @@
   (symbol (lib_id "power:GND") (at 273.05 210.82 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cefe7b70-0e6d-4185-972f-0ea66d71fd33)
-    (property "Reference" "#PWR042" (at 279.4 210.82 0)
+    (property "Reference" "#PWR056" (at 279.4 210.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 276.225 210.82 90)
@@ -13262,7 +13262,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -13271,7 +13271,7 @@
   (symbol (lib_id "Device:C_Small") (at 299.72 33.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d0852004-6e63-49a3-a454-bcb68f4595f0)
-    (property "Reference" "C18" (at 299.7263 28.4095 90)
+    (property "Reference" "C25" (at 299.7263 28.4095 90)
       (effects (font (size 1 1)))
     )
     (property "Value" "100nF" (at 299.7263 30.1031 90)
@@ -13297,7 +13297,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C18") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -13306,7 +13306,7 @@
   (symbol (lib_id "power:+1V8") (at 233.68 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d08e4b46-cb72-4620-85c7-ee0d6bc3b471)
-    (property "Reference" "#PWR049" (at 233.68 120.65 0)
+    (property "Reference" "#PWR043" (at 233.68 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 233.68 113.03 0)
@@ -13322,7 +13322,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -13331,7 +13331,7 @@
   (symbol (lib_id "Device:R_Small") (at 365.76 201.93 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid d1db6b2f-0dfa-4031-aa28-08b8b4ec997b)
-    (property "Reference" "R39" (at 367.284 201.422 90)
+    (property "Reference" "R35" (at 367.284 201.422 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "10k" (at 364.49 198.755 90)
@@ -13357,7 +13357,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R39") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -13366,7 +13366,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 149.86 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2468fa2-9859-4d26-ae44-4fc3cb374c58)
-    (property "Reference" "#FLG04" (at 149.86 56.515 0)
+    (property "Reference" "#FLG01" (at 149.86 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 149.86 54.475 0)
@@ -13382,7 +13382,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#FLG04") (unit 1)
+          (reference "#FLG01") (unit 1)
         )
       )
     )
@@ -13391,7 +13391,7 @@
   (symbol (lib_name "CARAVEL_TT03_BREAKOUT_1") (lib_id "TinyTapeout:CARAVEL_TT03_BREAKOUT") (at 147.32 163.83 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d330ac86-79a4-43c5-9c0a-69cac1356867)
-    (property "Reference" "J1" (at 138.43 160.02 0)
+    (property "Reference" "J7" (at 138.43 160.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TT03_BREAKOUT" (at 148.59 172.72 0)
@@ -13486,7 +13486,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "J1") (unit 2)
+          (reference "J7") (unit 2)
         )
       )
     )
@@ -13530,7 +13530,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 168.91 219.71 180) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid d40f2a3e-444d-4a04-bd28-f343d2ecadfe)
-    (property "Reference" "TP8" (at 171.45 224.79 0)
+    (property "Reference" "TP5" (at 171.45 224.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 167.513 221.988 0)
@@ -13546,7 +13546,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "TP8") (unit 1)
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -13555,7 +13555,7 @@
   (symbol (lib_id "power:GND") (at 231.14 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d47295e5-955b-4a92-9070-a34d4408ad42)
-    (property "Reference" "#PWR097" (at 231.14 82.55 0)
+    (property "Reference" "#PWR042" (at 231.14 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.14 80.01 0)
@@ -13571,7 +13571,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -13580,7 +13580,7 @@
   (symbol (lib_id "Device:R_Small") (at 115.57 204.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d63858a0-e5d5-4cfb-b720-8d2d341a7864)
-    (property "Reference" "R3" (at 113.665 206.375 90)
+    (property "Reference" "R12" (at 113.665 206.375 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 117.475 206.375 90)
@@ -13606,7 +13606,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R3") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -13639,7 +13639,7 @@
   (symbol (lib_id "power:+3.3V") (at 322.58 231.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d789cdd8-bd9b-4888-887b-c5918a8cb47e)
-    (property "Reference" "#PWR07" (at 322.58 234.95 0)
+    (property "Reference" "#PWR082" (at 322.58 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 322.58 227.33 0)
@@ -13655,7 +13655,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -13699,7 +13699,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x22") (at 372.11 135.89 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7b54cbe-2ade-4819-b876-e4180648c00e)
-    (property "Reference" "J8" (at 372.11 107.95 0)
+    (property "Reference" "J11" (at 372.11 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x22" (at 375.92 166.37 0)
@@ -13742,7 +13742,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "J8") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -13751,7 +13751,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 182.88 256.54 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid d7e1c4a6-b55e-45c6-89db-4b4724ecaa37)
-    (property "Reference" "TP6" (at 180.34 251.46 0)
+    (property "Reference" "TP8" (at 180.34 251.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 184.277 254.262 0)
@@ -13767,7 +13767,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "TP6") (unit 1)
+          (reference "TP8") (unit 1)
         )
       )
     )
@@ -13819,7 +13819,7 @@
   (symbol (lib_id "power:+3.3V") (at 29.21 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9f7651e-b1b7-47e6-82ee-b4b907396bde)
-    (property "Reference" "#PWR090" (at 29.21 140.97 0)
+    (property "Reference" "#PWR01" (at 29.21 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 30.48 133.35 0)
@@ -13835,7 +13835,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -13844,7 +13844,7 @@
   (symbol (lib_id "Device:R_Small") (at 44.45 147.32 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db0c669e-fe42-4844-833f-9645e25fbead)
-    (property "Reference" "R24" (at 42.926 147.828 90)
+    (property "Reference" "R8" (at 42.926 147.828 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "10k" (at 45.974 149.86 90)
@@ -13870,7 +13870,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R24") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -13879,7 +13879,7 @@
   (symbol (lib_id "Device:R_Small") (at 106.68 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid dcf115e8-9ca4-435e-a578-96613dc5c68f)
-    (property "Reference" "R5" (at 108.1786 81.526 0)
+    (property "Reference" "R11" (at 108.1786 81.526 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 108.1786 83.574 0)
@@ -13905,7 +13905,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R5") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -13914,7 +13914,7 @@
   (symbol (lib_id "power:GND") (at 353.06 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid de264286-e34f-4dfe-a0a1-32a53b3e816f)
-    (property "Reference" "#PWR055" (at 353.06 172.72 0)
+    (property "Reference" "#PWR088" (at 353.06 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 353.06 170.18 0)
@@ -13930,7 +13930,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -13965,7 +13965,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 234.95 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dff6ac4d-4f04-4c01-8bf1-f976a0043dfc)
-    (property "Reference" "#FLG01" (at 234.95 31.115 0)
+    (property "Reference" "#FLG03" (at 234.95 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 234.95 29.075 0)
@@ -13981,7 +13981,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -13990,7 +13990,7 @@
   (symbol (lib_id "Device:R_Small") (at 218.44 121.92 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e241c0a1-32fa-4ef4-9198-2078def69153)
-    (property "Reference" "R11" (at 216.535 123.825 90)
+    (property "Reference" "R22" (at 216.535 123.825 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.2K" (at 220.345 123.825 90)
@@ -14013,7 +14013,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R11") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -14065,7 +14065,7 @@
   (symbol (lib_id "power:GND") (at 285.75 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4faa9f8-6158-4e61-ac22-63a714c3b1e3)
-    (property "Reference" "#PWR069" (at 285.75 58.42 0)
+    (property "Reference" "#PWR065" (at 285.75 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 288.29 54.61 0)
@@ -14081,7 +14081,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -14133,7 +14133,7 @@
   (symbol (lib_id "power:GND") (at 233.68 133.35 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8cfc66d-b570-452b-80fb-9722dae4cb7f)
-    (property "Reference" "#PWR050" (at 233.68 139.7 0)
+    (property "Reference" "#PWR044" (at 233.68 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 137.16 0)
@@ -14149,7 +14149,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -14158,7 +14158,7 @@
   (symbol (lib_id "power:GND") (at 229.87 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e90a514b-9a33-4c77-8c96-e9f319abe588)
-    (property "Reference" "#PWR026" (at 229.87 45.72 0)
+    (property "Reference" "#PWR041" (at 229.87 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 229.87 43.18 0)
@@ -14174,7 +14174,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -14214,7 +14214,7 @@
   (symbol (lib_id "Device:R_Small") (at 153.67 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eaeb7d97-90e3-4f7b-8d6d-91a3fafd91d0)
-    (property "Reference" "R2" (at 154.94 48.26 0)
+    (property "Reference" "R15" (at 154.94 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 154.94 50.8 0)
@@ -14240,7 +14240,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R2") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -14284,7 +14284,7 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 304.8 241.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eda66ac1-3219-4516-a277-f90fa4da1ac4)
-    (property "Reference" "TP4" (at 311.404 239.903 0)
+    (property "Reference" "TP9" (at 311.404 239.903 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Keystone 5019" (at 311.404 240.927 0)
@@ -14300,7 +14300,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "TP4") (unit 1)
+          (reference "TP9") (unit 1)
         )
       )
     )
@@ -14309,7 +14309,7 @@
   (symbol (lib_id "power:GND") (at 123.19 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee06a210-f2d3-42a2-8b86-87e6897c8302)
-    (property "Reference" "#PWR01" (at 123.19 85.09 0)
+    (property "Reference" "#PWR020" (at 123.19 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 125.73 81.28 0)
@@ -14325,7 +14325,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -14334,7 +14334,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x02_Odd_Even") (at 50.8 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef28bcae-af6d-4be4-8bc2-8645b58b26b8)
-    (property "Reference" "J11" (at 52.07 47.998 0)
+    (property "Reference" "J2" (at 52.07 47.998 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x02_Odd_Even" (at 52.07 47.998 0)
@@ -14353,7 +14353,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "J11") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -14397,7 +14397,7 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 322.58 233.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2159341-615a-488d-9a22-6f8c84890616)
-    (property "Reference" "TP2" (at 323.342 235.077 0)
+    (property "Reference" "TP12" (at 323.342 235.077 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Keystone 5019" (at 315.976 234.053 0)
@@ -14413,7 +14413,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "TP2") (unit 1)
+          (reference "TP12") (unit 1)
         )
       )
     )
@@ -14422,7 +14422,7 @@
   (symbol (lib_id "power:GND") (at 76.2 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f485db95-92b2-4670-a29c-acadfe6e82b2)
-    (property "Reference" "#PWR088" (at 76.2 217.17 0)
+    (property "Reference" "#PWR015" (at 76.2 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 213.36 0)
@@ -14438,7 +14438,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -14478,7 +14478,7 @@
   (symbol (lib_id "power:GND") (at 304.8 243.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4a92f3a-b7e6-458e-90c7-8bb00bda9cb4)
-    (property "Reference" "#PWR010" (at 304.8 250.19 0)
+    (property "Reference" "#PWR074" (at 304.8 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 304.8 247.65 0)
@@ -14494,7 +14494,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -14503,7 +14503,7 @@
   (symbol (lib_id "Device:C_Small") (at 76.2 205.74 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f7593ca4-9ae5-4624-99b2-635275f6ddfd)
-    (property "Reference" "C30" (at 78.5241 204.8868 0)
+    (property "Reference" "C3" (at 78.5241 204.8868 0)
       (effects (font (size 1 1)) (justify right))
     )
     (property "Value" "1uF" (at 78.5241 206.5804 0)
@@ -14529,7 +14529,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C30") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -14538,7 +14538,7 @@
   (symbol (lib_id "Device:C_Small") (at 292.1 50.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f96ba43f-c293-4992-a5ae-0cd4d25ab784)
-    (property "Reference" "C24" (at 289.56 49.53 90)
+    (property "Reference" "C18" (at 289.56 49.53 90)
       (effects (font (size 1 1)))
     )
     (property "Value" "100nF" (at 295.91 52.07 90)
@@ -14564,7 +14564,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C24") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -14573,7 +14573,7 @@
   (symbol (lib_id "Device:R_Small") (at 240.03 168.91 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f99011d0-1cd0-4f64-8e86-533c5d81de2f)
-    (property "Reference" "R21" (at 237.871 167.894 90)
+    (property "Reference" "R32" (at 237.871 167.894 90)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "68R" (at 245.11 167.894 90)
@@ -14596,7 +14596,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "R21") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -14605,7 +14605,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 236.22 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9b5f2eb-eeca-41da-9744-de1d9d0d36b4)
-    (property "Reference" "#FLG05" (at 236.22 67.945 0)
+    (property "Reference" "#FLG04" (at 236.22 67.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 236.22 65.905 0)
@@ -14621,7 +14621,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#FLG05") (unit 1)
+          (reference "#FLG04") (unit 1)
         )
       )
     )
@@ -14630,7 +14630,7 @@
   (symbol (lib_id "power:+3.3V") (at 63.5 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fadf8198-af58-4245-8d19-744fe55c635b)
-    (property "Reference" "#PWR085" (at 63.5 186.69 0)
+    (property "Reference" "#PWR012" (at 63.5 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 64.77 179.07 0)
@@ -14646,7 +14646,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -14655,7 +14655,7 @@
   (symbol (lib_id "power:GND") (at 226.06 133.35 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb10c433-0515-4440-af7b-42cb9fae3041)
-    (property "Reference" "#PWR044" (at 226.06 139.7 0)
+    (property "Reference" "#PWR040" (at 226.06 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 226.06 137.16 0)
@@ -14671,7 +14671,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -14680,7 +14680,7 @@
   (symbol (lib_id "Device:C_Small") (at 241.3 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb57e368-ed0e-4b79-b839-754905b1f618)
-    (property "Reference" "C35" (at 243.84 72.3962 0)
+    (property "Reference" "C13" (at 243.84 72.3962 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 243.84 74.9362 0)
@@ -14706,7 +14706,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "C35") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -14715,7 +14715,7 @@
   (symbol (lib_id "power:GND") (at 125.73 248.92 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbd802a2-f21f-430b-b029-3e742a61c811)
-    (property "Reference" "#PWR024" (at 125.73 255.27 0)
+    (property "Reference" "#PWR021" (at 125.73 255.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 125.73 252.73 0)
@@ -14731,7 +14731,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -14783,7 +14783,7 @@
   (symbol (lib_id "power:GND") (at 325.12 205.74 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff91932f-c733-4180-834a-07733ce56981)
-    (property "Reference" "#PWR066" (at 325.12 212.09 0)
+    (property "Reference" "#PWR083" (at 325.12 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 325.12 209.55 0)
@@ -14799,7 +14799,7 @@
     (instances
       (project "mpw-mb1"
         (path "/20adca1d-43a1-4784-9682-8b7dd1c7d330"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
