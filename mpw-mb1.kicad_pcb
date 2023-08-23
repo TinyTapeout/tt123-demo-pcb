@@ -4180,7 +4180,7 @@
       (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 9336d7b7-9e36-4477-9ec4-a771bcdbedc4))
     (fp_line (start 1.9 0.5) (end 1.9 -0.5)
       (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 689a1d0b-d459-4f98-bb17-7aa3add68191))
-    (pad "1" smd rect (at 0 0) (size 3.8 2) (layers "F.Cu" "F.Mask")
+    (pad "1" smd rect (at 0 0) (size 3.8 2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 10 "+3.3V") (pinfunction "1") (pintype "passive") (tstamp 38227587-a33d-4d86-b149-be53505214bf))
     (model "${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Minature.wrl"
       (offset (xyz 0 0 0))
@@ -7999,7 +7999,7 @@
       (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 3d610c56-00c2-4902-8956-c15e49362baf))
     (fp_line (start 1.9 0.5) (end 1.9 -0.5)
       (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 5963c158-24cd-4a82-9c29-2cc2d9088b2c))
-    (pad "1" smd rect (at 0 0 270) (size 3.8 2) (layers "F.Cu" "F.Mask")
+    (pad "1" smd rect (at 0 0 270) (size 3.8 2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 12 "+1V8") (pinfunction "1") (pintype "passive") (tstamp 04af6863-3304-41ed-b463-d6f4a09376ce))
     (model "${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Minature.wrl"
       (offset (xyz 0 0 0))
@@ -15104,7 +15104,7 @@
       (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 3f775cad-2cd2-4c33-a54b-41bd42071fa8))
     (fp_line (start 1.9 0.5) (end 1.9 -0.5)
       (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp c1ceca85-1847-4bb1-92a2-8ca2eceb7341))
-    (pad "1" smd rect (at 0 0 90) (size 3.8 2) (layers "F.Cu" "F.Mask")
+    (pad "1" smd rect (at 0 0 90) (size 3.8 2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "+5V") (pinfunction "1") (pintype "passive") (tstamp f24630cf-3cd6-416f-9b97-639cfac46677))
     (model "${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5019_Minature.wrl"
       (offset (xyz 0 0 0))
@@ -20891,9 +20891,6 @@
   )
   (gr_text "RDY" (at 156.4 72) (layer "F.SilkS" knockout) (tstamp fef8590e-2ee0-4545-9bc6-26d289f81246)
     (effects (font (size 1.2 1.2) (thickness 0.2) bold) (justify right bottom))
-  )
-  (gr_text "TODO: TP paste fp" (at 56.9 146.7) (layer "User.1") (tstamp 0abdf31e-c804-41fc-9704-606e7b1280d0)
-    (effects (font (size 2 2) (thickness 0.3)) (justify left bottom))
   )
   (gr_text "2-layer, basic PCB\n0.3mm drill min\n>6mil traces" (at 141.5 148.5) (layer "User.1") (tstamp 86524c80-49b5-440c-aa5a-77353f3d5e21)
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
