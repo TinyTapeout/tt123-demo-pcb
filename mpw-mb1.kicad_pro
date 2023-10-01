@@ -459,7 +459,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "clk",
-        "pcb_color": "rgb(240, 0, 255)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.65,
@@ -476,7 +476,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "config",
-        "pcb_color": "rgb(11, 84, 255)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.65,
@@ -493,7 +493,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "ioin",
-        "pcb_color": "rgb(18, 200, 39)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.65,
@@ -510,7 +510,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "ioout",
-        "pcb_color": "rgb(251, 254, 27)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.65,
@@ -527,11 +527,28 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "pwr",
-        "pcb_color": "rgb(221, 76, 19)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.65,
         "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "pwrhi",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       }
     ],
@@ -547,10 +564,10 @@
       },
       {
         "netclass": "pwr",
-        "pattern": "+*"
+        "pattern": "+1*"
       },
       {
-        "netclass": "pwr",
+        "netclass": "pwrhi",
         "pattern": "VBUS"
       },
       {
@@ -580,6 +597,14 @@
       {
         "netclass": "config",
         "pattern": "set_clk_div"
+      },
+      {
+        "netclass": "pwrhi",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "pwr",
+        "pattern": "+3*"
       }
     ]
   },
