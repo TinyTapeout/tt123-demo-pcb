@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -56,18 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|67050000|128680000|14714904-42f5-4f5c-bafe-2b565d234034|85b618f5-dbca-4aa3-993e-bd4196b89c23",
-        "clearance|67050000|128680000|14714904-42f5-4f5c-bafe-2b565d234034|f02a6b54-7ee4-46f4-9d7f-759b34f66747",
-        "clearance|67250000|128680000|85b618f5-dbca-4aa3-993e-bd4196b89c23|9d982893-16ad-44fd-acb3-1431233bddcb",
-        "clearance|67250000|128680000|f02a6b54-7ee4-46f4-9d7f-759b34f66747|9d982893-16ad-44fd-acb3-1431233bddcb",
-        "clearance|72750000|128680000|21a1a163-e841-4acd-b7f6-6e0a7248f165|56c14e0d-5547-426c-9a3f-5b27b5f6534a",
-        "clearance|72750000|128680000|21a1a163-e841-4acd-b7f6-6e0a7248f165|b49efa7a-173e-4aba-b693-b0951df75de2",
-        "clearance|72950000|128680000|56c14e0d-5547-426c-9a3f-5b27b5f6534a|2f70f202-c0c3-4ffc-9e2e-8f12baebeec5",
-        "clearance|72950000|128680000|b49efa7a-173e-4aba-b693-b0951df75de2|2f70f202-c0c3-4ffc-9e2e-8f12baebeec5",
-        "courtyards_overlap|129774999|71761328|ce597d91-a78f-48c7-aec6-ddca1db1e698|ef545c28-3af1-4ec6-99d0-373f384d1c34",
-        "footprint_type_mismatch|107610000|79690000|bf33431d-2ac1-4936-93a3-38a476769ae2|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
