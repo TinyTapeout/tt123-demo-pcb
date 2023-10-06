@@ -31,10 +31,11 @@ https://github.com/TinyTapeout/tinytapeout-02/blob/tt02/INFO.md#clock-divider
 
 You shouldn't need to update the firmware in most cases.
 
-If you need firmware for external scan controller you can get the firmware from here.
-Compile and flash using the Makefile.
+If you need firmware for external scan controller you can get the firmware from here:
 
 https://github.com/TinyTapeout/tinytapeout-02/tree/tt02/verilog/dv/scan_controller_ext
+
+Compile and flash using the Makefile.
 
 # We are very happy to be sponsored by
 
