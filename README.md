@@ -1,6 +1,6 @@
 # TinyTapeout MotherBoard for chips TT01, TT02 & TT03 
 
-![Logo](docs/ttlogo.png | width=100)
+![Logo](docs/ttlogo.png)
 
 [TinyTapeout](https://tinytapeout.com/) is an educational project that makes it easier and cheaper than ever to get your digital designs manufactured on a real chip!
 
@@ -36,6 +36,10 @@ Compile and flash using the Makefile.
 
 https://github.com/TinyTapeout/tinytapeout-02/tree/tt02/verilog/dv/scan_controller_ext
 
+# We are very happy to be sponsored by
+
+* [Efabless](https://efabless.com/) & [Aisler](https://aisler.net/)
+
 ## Flashing
 
 Todo
@@ -44,27 +48,12 @@ Todo
 
 See [CHANGELOG.md](CHANGELOG.md)
 
-# Tiny Tapeouts
-
-This board is designed for use with these chips:
-
-* https://tinytapeout.com/runs/tt01/
-* https://tinytapeout.com/runs/tt02/
-* https://tinytapeout.com/runs/tt03/
-
 # Resources
 
 * [Technical info on the chip, pinout, scanchain](https://github.com/TinyTapeout/tinytapeout-02/blob/tt02/INFO.md)
 * [Breakout PCB](https://github.com/TinyTapeout/caravel-breakout-pcb)
-* Caravel datasheet: https://caravel-harness.readthedocs.io/en/latest
-* Logo created at: http://oshwmark.capablerobot.com/
-
-# Sponsors
-
-We are very happy to be sponsored by:
-
-* the [Efabless](https://efabless.com/) chipIgnite shuttle program
-* [Aisler](https://aisler.net/)
+* [Datasheet on Caravel: the padring and management core](https://caravel-harness.readthedocs.io/en/latest)
+* Logo created at [oshwmark by CapableRobot](http://oshwmark.capablerobot.com/)
 
 # License
 
