@@ -2151,7 +2151,7 @@
       (net 82 "Net-(U1-IO3)") (pinfunction "IO3") (pintype "bidirectional") (tstamp a18c80a6-0c8c-4de5-b6f5-b741509dbe2e))
     (pad "8" smd roundrect (at 3.6 -1.905 90) (size 1.6 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 10 "+3.3V") (pinfunction "VCC") (pintype "power_in") (tstamp 2d7b5944-c446-482e-9d79-1fdb1ded215d))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.23x5.23mm_P1.27mm.wrl"
+    (model ":KICAD6_3DMODEL_DIR:Package_SO.3dshapes/SO-8_5.3x6.2mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9228,10 +9228,10 @@
       (net 15 "osc_out") (pinfunction "OUT") (pintype "output") (tstamp df815a04-1ea4-4b41-893a-48880141d52b))
     (pad "4" smd roundrect (at 0.725 -0.925 180) (size 0.8 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 10 "+3.3V") (pinfunction "VDD") (pintype "power_in") (tstamp 7d07ae20-66f3-4b43-ac9b-5c465d1c420e))
-    (model "${KICAD6_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm.wrl"
+    (model ":KICAD6_3DMODEL_DIR:Oscillator.3dshapes/Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm.wrl"
       (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -12010,7 +12010,7 @@
       (net 10 "+3.3V") (pinfunction "Pin_5") (pintype "passive") (tstamp 4c9dd828-f3b5-4f1f-a476-4db860e30169))
     (pad "6" thru_hole oval (at 0 12.7 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "Pin_6") (pintype "passive") (tstamp 668e1eef-f8f7-460a-b780-3fd398153bee))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
