@@ -6,8 +6,8 @@
 
   (title_block
     (title "TinyTapeout Motherboard")
-    (date "2023-10-05")
-    (rev "2.2.2")
+    (date "2023-10-11")
+    (rev "2.2.3")
     (company "Psychogenic Technologies")
     (comment 1 "(C) 2023 Pat Deegan")
   )
@@ -15787,7 +15787,7 @@
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 92b39afa-d9d6-4f65-b509-2d86686d0783)
   )
-  (text "TinyTapeout 1/2/3 Motherboard" (at 168.91 17.78 0)
+  (text "TinyTapeout 1/2/3 Demo Board" (at 168.91 17.78 0)
     (effects (font (size 4 4) (thickness 0.4) bold) (justify left bottom))
     (uuid 95c2e37a-67ad-4ab2-8d6b-4ac63714562d)
   )
@@ -15848,7 +15848,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dd3c9e48-11e8-4634-853a-1343b0619cf4)
   )
-  (text "Version 2.2.2 Preview" (at 355.6 20.32 0)
+  (text "Version 2.2.3 Preview" (at 355.6 20.32 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid e3773ae5-012e-4184-867e-7552ca13d550)
   )
