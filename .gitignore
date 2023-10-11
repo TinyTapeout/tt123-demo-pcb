@@ -38,3 +38,4 @@ bom/
 
 # Gerber export output
 out/
+*.lck
