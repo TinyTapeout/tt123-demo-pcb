@@ -37,30 +37,51 @@ https://github.com/TinyTapeout/tinytapeout-02/tree/tt02/verilog/dv/scan_controll
 
 Compile and flash using the Makefile.
 
-# We are very happy to be sponsored by
+## We are very happy to be sponsored by
 
 * [Efabless](https://efabless.com/) & [Aisler](https://aisler.net/)
+
+## Features
+
+* Lots of testpoints, big ground pads
+* Expose useful signals from ASIC:
+  * ready - the sync pulse when the chain is updated
+  * slow clock
+  * the safety scan chain pins (all those starting with ext_scan...)
+  * Expose flash programming on a standard cheap footprint for some common USB FTDI programmer
+* Lots of explanatory silkscreen
+* Board version and link to this repo on the silkscreen
+* USB C PSU, 3.3v and 1.8v
+* Adjustable clock / single step
+* 9 DIP switch for design select (or jumpers)
+* 8 DIP switch for inputs - should last for some fiddling but don’t need to be too heavy duty - could be buttons.
+* 8 LEDs for outputs: 7 segment display inc dot
+* Include PMOD headers for IOs
+* Pluggable into breadboard
+* Flash for firmware used to setup GPIO
+* Work for TT01, TT02 & TT03
+* Design for test - single sided probe test points, mounting / alignment holes
 
 ## Flashing
 
 Todo
 
-# CHANGELOG
+## CHANGELOG
 
 See [CHANGELOG.md](CHANGELOG.md)
 
-# Resources
+## Resources
 
 * [Technical info on the chip, pinout, scanchain](https://github.com/TinyTapeout/tinytapeout-02/blob/tt02/INFO.md)
 * [Breakout PCB](https://github.com/TinyTapeout/caravel-breakout-pcb)
 * [Datasheet on Caravel: the padring and management core](https://caravel-harness.readthedocs.io/en/latest)
 * Logo created at [oshwmark by CapableRobot](http://oshwmark.capablerobot.com/)
 
-# License
+## License
 
 * The PCB is licensed under the [Apache2 License](LICENSE)
 * The documentation is licensed under the [CC0 License](CC0_license)
 
-# Open Source Hardware
+## Open Source Hardware
 
 This board is awaiting OSHWA approval.
