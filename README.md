@@ -1,4 +1,4 @@
-# TinyTapeout MotherBoard for chips TT01, TT02 & TT03 
+# TinyTapeout Demo Board for chips TT01, TT02 & TT03 
 
 ![Logo](docs/ttlogo.png)
 
