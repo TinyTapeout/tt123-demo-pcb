@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.2.2] - 2023-10-06
+
+Component replacements for PCBA/costing and related layout work.
+
+### Major changes
+
+- Tactile switches swapped out for bigger components
+- LDOs swapped out for more efficient components
+- USB-C connector changed for unit that only handles power
+- layout positioning of 1 symbol -> 2 placements for carrier board
+
 ## [2.2.0] - 2023-10-01
 
 Rework and complete re-route for the TT 1-3 mainboard.
