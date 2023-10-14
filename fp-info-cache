@@ -1,4 +1,4 @@
-22531242950820347
+22531329988355208
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89663,6 +89663,13 @@ USB-C, Power, USB
 10
 10
 TinyTapeout
+PinHeader_2x06_P2.54mm_PMODPeriph2B
+Through hole angled pin header, 2x06, 2.54mm pitch, 6mm pin length, double rows
+PMOD peripheral, digilent numbering, through hole angled pin header THT 2x06 2.54mm double row
+0
+12
+12
+TinyTapeout
 PinSocket_2x06_P2.54mm_PMODHost1A
 Through hole angled socket strip, 2x06, 2.54mm pitch, 8.51mm socket length, double cols (from Kicad 4.0.7), script generated
 PMOD host expanded GPIO hole angled socket strip THT 2x06 2.54mm double row
@@ -89697,13 +89704,6 @@ Placeholder for components that need BOM/POS file inclusion
 0
 0
 0
-TinyTapeout
-TT_BREAKOUT_PINHEADER_PLACEHOLDER_WITHPAD
-Placeholder for components that need BOM/POS file inclusion
-
-0
-1
-1
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
