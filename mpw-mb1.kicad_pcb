@@ -6,9 +6,9 @@
 
   (paper "User" 210.007 229.997)
   (title_block
-    (title "TinyTapeout 1,2,3 Motherboard ")
-    (date "2023-10-11")
-    (rev "2.2.3")
+    (title "TinyTapeout 1,2,3 Demo Board ")
+    (date "2023-10-27")
+    (rev "2.2.4")
     (company "Psychogenic Technologies")
     (comment 1 "(C) 2023 Pat Deegan")
   )
