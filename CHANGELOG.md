@@ -1,5 +1,19 @@
 # Changelog
 
+
+
+## [2.2.4] - 2023-10-27
+
+Fix for bring-up discovery of Caravel reset issue.  The pull-up on the ~RESET pin is insufficient for stable power-up: it rises along with the supply and glitches operation.  Tests show adding a cap to delay transition looks sufficient for decent boot.
+
+Also exposed the slow clock config/enable using jumper (J12)
+
+
+## [2.2.3] - 2023-10-11
+
+Minor tweaks for pick&place and silkscreen adjustments.
+
+
 ## [2.2.2] - 2023-10-06
 
 Component replacements for PCBA/costing and related layout work.
