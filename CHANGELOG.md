@@ -1,6 +1,9 @@
 # Changelog
 
 
+## [2.2.5] - 2023-11-13
+
+7-segment display used required new footprint: created and placed. Tests indicate caravel may be clocked up to about 28MHz, osc changed to 20MHz.  Added a DNP pull-up for nRST, just in case internal isn't around or doing the job.  DNPed PMODs.
 
 ## [2.2.4] - 2023-10-27
 
