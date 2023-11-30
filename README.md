@@ -86,4 +86,4 @@ See [CHANGELOG.md](CHANGELOG.md)
 
 ## Open Source Hardware
 
-This board is awaiting OSHWA approval.
+[ES000040](https://certification.oshwa.org/es000040.html)
