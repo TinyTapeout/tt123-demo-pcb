@@ -66,7 +66,7 @@ Compile and flash using the Makefile.
 
 ## Flashing
 
-Todo
+[See the firmware repo here](https://github.com/TinyTapeout/tt123-demo-fw)
 
 ## CHANGELOG
 
