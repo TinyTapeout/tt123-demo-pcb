@@ -41,7 +41,7 @@ Compile and flash using the Makefile.
 
 ## We are very happy to be sponsored by
 
-* [Efabless](https://efabless.com/) & [Aisler](https://aisler.net/)
+* [Efabless](https://efabless.com/)
 
 ## Features
 
