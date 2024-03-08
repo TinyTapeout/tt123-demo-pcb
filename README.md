@@ -48,7 +48,7 @@ Compile and flash using the Makefile.
 
 ## We are very happy to be sponsored by
 
-* [Efabless](https://efabless.com/) & [Aisler](https://aisler.net/)
+* [Efabless](https://efabless.com/)
 
 ## Features
 
@@ -73,7 +73,7 @@ Compile and flash using the Makefile.
 
 ## Flashing
 
-Todo
+[See the firmware repo here](https://github.com/TinyTapeout/tt123-demo-fw)
 
 ## CHANGELOG
 
@@ -93,4 +93,4 @@ See [CHANGELOG.md](CHANGELOG.md)
 
 ## Open Source Hardware
 
-This board is awaiting OSHWA approval.
+[ES000040](https://certification.oshwa.org/es000040.html)
