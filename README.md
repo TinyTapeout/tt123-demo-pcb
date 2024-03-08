@@ -12,6 +12,13 @@
 
 [More photos](https://photos.google.com/share/AF1QipMfPNW5h1ToMmdxPiXkDxMh_URZRe7d-SqbOogF8Wc6BN0UmT55_Mc50GN2rfgwhA?key=SkdnNWthTFJkWDJILVlxbmpqblBqY0g4dThWaU1B)
 
+
+# Pinout and Quickstart
+
+
+
+![pinout](docs/tt3demoboard-pinout.jpg)
+
 # Setup
 
 Select the design you want to load. See here for all the designs:
