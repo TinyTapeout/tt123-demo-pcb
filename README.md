@@ -82,7 +82,7 @@ See [CHANGELOG.md](CHANGELOG.md)
 ## Resources
 
 * [Technical info on the chip, pinout, scanchain](https://github.com/TinyTapeout/tinytapeout-02/blob/tt02/INFO.md)
-* [Breakout PCB](https://github.com/TinyTapeout/caravel-breakout-pcb)
+* [Breakout PCB](https://github.com/TinyTapeout/breakout-pcb)
 * [Datasheet on Caravel: the padring and management core](https://caravel-harness.readthedocs.io/en/latest)
 * Logo created at [oshwmark by CapableRobot](http://oshwmark.capablerobot.com/)
 
